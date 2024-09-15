@@ -1,4 +1,3 @@
-# -01-.Hackathon-Interactive-Resume-Builder
 # Note:
 I had trouble uploading the website on Vercel because of some sign-up issues.  So I  published it on Netlify.
 
