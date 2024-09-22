@@ -23,9 +23,9 @@ let edFuncDiv :null | HTMLElement = document.getElementById('edfunc');
 function edYesButtonFunc():void{
     if(edFuncDiv){
         edFuncDiv.innerHTML =`<label for="degreee">Degree</label>
-                <input type="text" id="degreee" placeholder="Enter Your Degree Name">
+                <input type="text" id="degreee" placeholder="Enter Your Degree Name" autocomplete="off">
                 <label for="institute">Insitute</label>
-                <input type="text" id="institute" placeholder="Enter Your Insitute Name">`
+                <input type="text" id="institute" placeholder="Enter Your Insitute Name" autocomplete="off">`
     }
 };
 function edNoButtonFunc(){
