@@ -99,7 +99,6 @@ form.addEventListener('submit',(event)=>{
                         resumePhoto.src = e.target?.result as string;
                     };
                     reader.readAsDataURL(formData.photo);
-                    reader.readAsDataURL(formData.photo);
                 }
             }
             else{
